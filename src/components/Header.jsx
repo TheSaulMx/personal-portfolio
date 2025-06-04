@@ -19,7 +19,7 @@ export class Header extends Component {
   render() {
     return (
       <header className="flex justify-center backdrop-filter backdrop-blur-md items-center py-7.5 fixed top-0 z-10 w-full">
-        <nav class=" fixed w-full z-20 top-0 start-0 border-b border-gray-600 dark:border-gray-600 ">
+        <nav className="fixed w-full z-20 top-0 start-0 border-b border-gray-600 dark:border-gray-600 ">
           <div className="flex flex-row justify-center gap-4">
             {this.LINKS.map((link, index) => (
               <a
